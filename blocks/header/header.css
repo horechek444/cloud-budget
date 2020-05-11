@@ -1,0 +1,13 @@
+@import url(./__logo/header__logo.css);
+@import url(./__cover/header__cover.css);
+
+.header {
+    position: relative;
+    display: flex;
+    background-image: url(../../images/header_background.jpg);
+    padding: 0 168px;
+    width: 1104px;
+    height: 782px;
+    color: white;
+    z-index: 1;
+}

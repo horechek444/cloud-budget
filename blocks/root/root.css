@@ -1,0 +1,7 @@
+.root {
+    min-width: 1015px;
+    max-width: 1440px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
+}
