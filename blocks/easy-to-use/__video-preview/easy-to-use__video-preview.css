@@ -1,0 +1,9 @@
+.easy-to-use__video-preview {
+    position: relative;
+    top: -46px;
+    left: 0;
+    background-image: url(../../../images/video.png);
+    width: 445px;
+    height: 311px;
+    border-radius: 15px;
+}

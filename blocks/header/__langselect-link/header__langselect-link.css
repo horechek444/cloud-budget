@@ -1,0 +1,22 @@
+.header__langselect-link {
+    position: relative;
+    top: 6px;
+    left: 0;
+    margin-right: 29px;
+    padding: 0;
+    width: 12px;
+    height: 7.5px;
+}
+
+.header__langselect-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 7.5px solid white;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom: 0;
+}

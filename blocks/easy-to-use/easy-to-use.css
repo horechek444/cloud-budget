@@ -1,0 +1,14 @@
+@import url(./__info/easy-to-use__info.css);
+@import url(./__title/easy-to-use__title.css);
+@import url(./__text/easy-to-use__text.css);
+@import url(./__link/easy-to-use__link.css);
+@import url(./__cover/easy-to-use__cover.css);
+@import url(./__video-preview/easy-to-use__video-preview.css);
+@import url(./__video-icon/easy-to-use__video-icon.css);
+
+.easy-to-use {
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 140px 0 0 165px;
+}

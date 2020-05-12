@@ -1,0 +1,17 @@
+.header__langselect {
+    position: relative;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header__langselect::before {
+    content: '';
+    position: absolute;
+    top: -7.5px;
+    left: -43px;
+    background-image: url(../../../images/lang.svg);
+    width: 32px;
+    height: 32px;
+}

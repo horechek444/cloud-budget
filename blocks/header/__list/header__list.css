@@ -1,0 +1,9 @@
+.header__list {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,13 +1,29 @@
+@import url(./__logo-cover/header__logo-cover.css);
 @import url(./__logo/header__logo.css);
+@import url(./__logo-name/header__logo-name.css);
+@import url(./__navigation/header__navigation.css);
+@import url(./__list/header__list.css);
+@import url(./__item/header__item.css);
+@import url(./__link/header__link.css);
+@import url(./__item/_active/header__item_active.css);
+@import url(./__item/_selected/header__item_selected.css);
+@import url(./__login-cover/header__login-cover.css);
+@import url(./__langselect/header__langselect.css);
+@import url(./__langselect-link/header__langselect-link.css);
+@import url(./__title/header__title.css);
+@import url(./__text/header__text.css);
+@import url(./__button-sing-up/header__button-sing-up.css);
+@import url(./__button/header__button.css);
 @import url(./__cover/header__cover.css);
 
 .header {
     position: relative;
+    flex-direction: column;
     display: flex;
     background-image: url(../../images/header_background.jpg);
-    padding: 0 168px;
+    padding: 60px 168px 0;
     width: 1104px;
-    height: 782px;
+    height: 722px;
     color: white;
     z-index: 1;
 }

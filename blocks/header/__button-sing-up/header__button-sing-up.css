@@ -1,0 +1,9 @@
+.header__button-sing-up {
+    margin: 0 auto;
+    padding: 0;
+    width: 160px;
+    min-height: 60px;
+    background-color: white;
+    color: #ED4C5C;
+    border: none;
+}

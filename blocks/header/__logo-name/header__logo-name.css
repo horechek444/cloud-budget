@@ -1,0 +1,9 @@
+.header__logo-name {
+    position: relative;
+    top: -3px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}

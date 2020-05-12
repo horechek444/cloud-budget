@@ -9,22 +9,54 @@
 <body class="root">
     <header class="header">
         <div class="header__cover"></div>
-        <img src="./images/logo.svg" class="header__logo" alt="Cloud logo of service">
-        <span class="header__logo-name">CloudBudget</span>
         <nav class="header__navigation">
+            <div class="header__logo-cover">
+                <img src="./images/logo.svg" class="header__logo" alt="Cloud logo of service">
+                <span class="header__logo-name">CloudBudget</span>
+            </div>
             <ul class="header__list">
-                <li class="header__item">Owerview</li>
-                <li class="header__item">Features</li>
-                <li class="header__item">Technology</li>
-                <li class="header__item">Contact</li>
-                <li class="header__item">Sing Up</li>
+                <li class="header__item header__item_active">
+                    <span class="header__item_selected">Owerview</span>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Features</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Technology</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Contact</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Sing Up</a>
+                </li>
             </ul>
-            <div class="header__langselect"></div>
-            <button class="button header__button">Login</button>
+            <div class="header__login-cover">
+                <div class="header__langselect">en</div>
+                <a href="#" class="header__langselect-link"></a>
+                <button class="button header__button">Login</button>
+            </div>
         </nav>
         <h1 class="header__title">CloudBudget</h1>
-        <p class="header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99</p>
-        <button class="button sing-up__button">Sing Up</button>
+        <p class="header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of<br>Up to €4.99</p>
+        <button class="button header__button-sing-up">Sing Up</button>
     </header>
+
+    <main>
+        <section class="easy-to-use">
+            <div class="easy-to-use__info">
+                <h2 class="main-title easy-to-use__title">Easy to Use Cloud Budget Management Software</h2>
+                <p class="main-text easy-to-use__text">Our software is made so you can access and manage your budget and 
+                expenses online at any time from any device. It provides detailed income 
+                nd expense reports with graphs so you can easilly see your spending 
+                patterns and budget at a glance. Read below to find out more.</p>
+                <a href="#" class="easy-to-use__link">Learn More</a>
+            </div>
+            <div class="easy-to-use__cover">
+                <div class="easy-to-use__video-icon"></div>
+                <div class="easy-to-use__video-preview"></div>
+            </div>
+        </section>
+    </h2>
 </body>
 </html>

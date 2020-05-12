@@ -1,0 +1,9 @@
+.easy-to-use__video-icon {
+    position: absolute;
+    top: 74px;
+    left: -33px;
+    background-image: url(../../../images/video-icon.svg);
+    width: 66px;
+    height: 66px;
+    z-index: 1;
+}

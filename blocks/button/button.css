@@ -1,0 +1,16 @@
+.button {
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    /* transition: color 0.2s ease-out; */
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button:hover {
+    /* color:  */
+}
