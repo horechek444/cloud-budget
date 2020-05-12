@@ -1,0 +1,11 @@
+.card__cover {
+    position: absolute;
+    top: 157px;
+    left: 29px;
+    background-color: white;
+    width: 293px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    padding-top: 33px;
+}

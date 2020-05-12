@@ -1,0 +1,10 @@
+.card__text {
+    text-align: center;
+    width: 229px;
+    min-height: 57px;
+    margin: 0 auto 5px;
+    padding: 0;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: normal;
+}

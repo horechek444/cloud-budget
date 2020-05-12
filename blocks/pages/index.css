@@ -2,6 +2,9 @@
 @import url(../easy-to-use/easy-to-use.css);
 @import url(../main-title/main-title.css);
 @import url(../main-text/main-text.css);
+@import url(../features/features.css);
+@import url(../cards/cards.css);
+@import url(../card/card.css);
 @import url(../button/button.css);
 @import url(../root/root.css);
 @import url(../../fonts/fonts.css);

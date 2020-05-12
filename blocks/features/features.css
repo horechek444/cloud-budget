@@ -1,0 +1,8 @@
+@import url(./__title/features__title.css);
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding-top: 63px;
+    background-color: #FAFAFA;
+}
