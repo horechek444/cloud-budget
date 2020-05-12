@@ -1,0 +1,9 @@
+.technology__number {
+    width: 117px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: bold;
+    color: rgba(16, 16, 16, 0.08);
+}

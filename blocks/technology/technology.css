@@ -1,0 +1,12 @@
+@import url(./__title/technology__title.css);
+@import url(./__list/technology__list.css);
+@import url(./__item/technology__item.css);
+@import url(./__number/technology__number.css);
+@import url(./__icon/technology__icon.css);
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 65px 0 0;
+}

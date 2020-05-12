@@ -1,0 +1,31 @@
+.technology__icon {
+    position: absolute;
+}
+
+.technology__item:nth-child(1) .technology__icon {
+    top: 59px;
+    left: 87px;
+    width: 80px;
+    height: 80px;
+}
+
+.technology__item:nth-child(2) .technology__icon {
+    top: 68px;
+    left: 103px;
+    width: 48px;
+    height: 59px;
+}
+
+.technology__item:nth-child(3) .technology__icon {
+    top: 69px;
+    left: 104px;
+    width: 48px;
+    height: 54px;
+}
+
+.technology__item:nth-child(4) .technology__icon {
+    top: 71px;
+    left: 104px;
+    width: 47px;
+    height: 53px;
+}
