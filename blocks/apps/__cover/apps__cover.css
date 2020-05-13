@@ -1,0 +1,5 @@
+.apps__cover {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 109px;
+}

@@ -1,0 +1,7 @@
+.apps__link-logo-part {
+    transition: opacity 0.2s ease-in;
+}
+
+.apps__link:hover .apps__link-logo-part {
+    opacity: 0.6;
+}

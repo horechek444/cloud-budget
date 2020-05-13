@@ -1,0 +1,14 @@
+.apps__link:nth-child(1) {
+    width: 32px;
+    height: 32px;
+}
+
+.apps__link:nth-child(2) {
+    width: 28px;
+    height: 28px;
+}
+
+.apps__link:nth-child(3) {
+    width: 24px;
+    height: 24px;
+}

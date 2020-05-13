@@ -1,0 +1,6 @@
+.apps__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 134px;
+}

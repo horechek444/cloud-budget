@@ -1,0 +1,16 @@
+@import url(./__cover/apps__cover.css);
+@import url(./__title/apps__title.css);
+@import url(./__text/apps__text.css);
+@import url(./__links/apps__links.css);
+@import url(./__link/apps__link.css);
+@import url(./__link-logo/apps__link-logo.css);
+@import url(./__link-logo-part/apps__link-logo-part.css);
+@import url(./__slider/apps__slider.css);
+@import url(./__slide/apps__slide.css);
+@import url();
+
+.apps {
+    display: flex;
+    background-color: #ED4C5C;
+    padding: 122px 0 0 165px;
+}
