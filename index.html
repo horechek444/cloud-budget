@@ -161,18 +161,87 @@
             </div>
             <div class="contacts__form-cover">
                 <form class="form" action="#" method="POST">
-                    <div class="form__cover">
+                    <div class="form__container">
                         <input class="form__item form__item_size_small" type="text" placeholder="First Name" required>
                         <input class="form__item form__item_size_small" type="text" placeholder="Last Name" required>
                     </div>
                     <input class="form__item" type="tel" placeholder="Phone Number" required>
                     <select class="form__item form__select" name="Select Service" required>
-                        <option value="">Select Service</option>
+                        <option value="select">Select Service</option>
                     </select>
+                    <span class="form__style"></span>
                     <input class="button form__button" type="submit" value="Submit now">
                 </form>
             </div>
         </section>
+
+        <footer class="footer">
+            <div class="footer__cover">
+                <div class="footer__column">
+                    <h3 class="footer__title">Address</h3>
+                    <p class="footer__text">Pipang Ltd, Griva Digeni,<br>81-83 Jacovides Tower, 1st Floor<br>1090 Picosia USA</p>
+                    <span class="footer__copyright">Copyright 2018 CloudBudget</span>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">Services</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Overview</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Technology</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Terms & Conditions</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Privecy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">Get in Touch</h3>
+                    <div class="footer__info">
+                        <span class="footer__email">info@cloudbudget.com</span>
+                        <span class="footer__phone">+1 844-721-7120</span>
+                    </div>
+                    <nav class="footer__navigation">
+                        <ul class="footer__social">
+                            <li class="footer__socail-item">
+                                <a href="#" class="footer__link">
+                                    <svg viewBox="0 0 7 12" fill="none">
+                                        <path class="footer__style" d="M6.5 0.166748H4.75C3.97645 0.166748 3.23458 0.474039 2.6876 1.02102C2.14062 1.568 1.83333 2.30987 1.83333 3.08342V4.83342H0.0833302V7.16675H1.83333V11.8334H4.16666V7.16675H5.91666L6.5 4.83342H4.16666V3.08342C4.16666 2.92871 4.22812 2.78033 4.33752 2.67094C4.44692 2.56154 4.59529 2.50008 4.75 2.50008H6.5V0.166748Z" fill="#101010"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__socail-item">
+                                <a href="#" class="footer__link">
+                                    <svg viewBox="0 0 12 12" fill="none">
+                                        <path class="footer__style" d="M8.33334 3.66675C9.26159 3.66675 10.1518 4.0355 10.8082 4.69187C11.4646 5.34825 11.8333 6.23849 11.8333 7.16675V11.2501H9.5V7.16675C9.5 6.85733 9.37709 6.56058 9.15829 6.34179C8.9395 6.123 8.64276 6.00008 8.33334 6.00008C8.02392 6.00008 7.72717 6.123 7.50838 6.34179C7.28959 6.56058 7.16667 6.85733 7.16667 7.16675V11.2501H4.83334V7.16675C4.83334 6.23849 5.20208 5.34825 5.85846 4.69187C6.51484 4.0355 7.40508 3.66675 8.33334 3.66675Z" fill="#101010"/>
+                                        <path class="footer__style" d="M0.166668 4.25H2.5V11.25H0.166668V4.25Z" fill="#101010"/>
+                                        <path class="footer__style" d="M1.33333 2.50008C1.97767 2.50008 2.5 1.97775 2.5 1.33341C2.5 0.689083 1.97767 0.166748 1.33333 0.166748C0.689002 0.166748 0.166668 0.689083 0.166668 1.33341C0.166668 1.97775 0.689002 2.50008 1.33333 2.50008Z" fill="#101010"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__socail-item">
+                                <a href="#" class="footer__link">
+                                    <svg viewBox="0 0 14 12" fill="none">
+                                        <path class="footer__style" d="M13.4167 0.750006C12.8581 1.14403 12.2396 1.4454 11.585 1.64251C11.2337 1.23855 10.7668 0.952243 10.2474 0.822297C9.7281 0.69235 9.18137 0.725037 8.68122 0.915938C8.18106 1.10684 7.75159 1.44674 7.45091 1.88967C7.15022 2.33261 6.99283 2.8572 7 3.39251V3.97584C5.97487 4.00242 4.95908 3.77506 4.04309 3.31402C3.1271 2.85297 2.33935 2.17254 1.75 1.33334C1.75 1.33334 -0.583331 6.58334 4.66667 8.91667C3.46531 9.73215 2.03418 10.141 0.583336 10.0833C5.83333 13 12.25 10.0833 12.25 3.37501C12.2495 3.21252 12.2338 3.05044 12.2033 2.89084C12.7987 2.30371 13.2188 1.56242 13.4167 0.750006Z" fill="#101010"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__column">
+                    <h3 class="footer__title">We Support </h3>
+                    <img src="./images/cards.png" class="footer__payments" alt="pay systems">
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>

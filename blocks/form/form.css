@@ -1,9 +1,9 @@
 @import url(./__item/form__item.css);
 @import url(./__item/_size/form__item_size_small.css);
-@import url(./__cover/form__cover.css);
+@import url(./__container/form__container.css);
 @import url(./__select/form__select.css);
-@import url();
-@import url();
+@import url(./__button/form__button.css);
+@import url(./__style/form__style.css);
 
 .form {
     position: relative;

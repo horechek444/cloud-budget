@@ -1,0 +1,7 @@
+.form__button {
+    width: 160px;
+    min-height: 50px;
+    color: white;
+    background-color: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+}

@@ -1,22 +1,8 @@
 .form__select {
-    /* position: relative; */
+    position: relative;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background-color: transparent;
     margin-bottom: 27px;
-}
-
-.form__select::after {
-    content: "";
-    /* display: block; */
-    position: absolute;
-    top: 23px;
-    right: 23px;
-    width: 20px;
-    height: 20px;
-    background-image: url(../../../images/select.svg);
-    background-size: 14px 14px;
-    z-index: 2;
-    margin-top: -3px;
 }

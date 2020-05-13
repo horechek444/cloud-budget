@@ -1,0 +1,10 @@
+.footer__copyright {
+    position: relative;
+    top: 159px;
+    left: 0;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    color: #101010;
+}
