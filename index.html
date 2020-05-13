@@ -160,17 +160,16 @@
                 team will get back to you within 24 hours</p>
             </div>
             <div class="contacts__form-cover">
-                <form action="">
-                    <label for="firstname"></label>
-                    <input id="first-name" type="text">
-                    <label for="last-name"></label>
-                    <input id="last-name" type="text">
-                    <label for="phone"></label>
-                    <input id="phone" type="tel">
-                    <label for="select"></label>
-                    <input id="select" type="">
-                    <label for=""></label>
-                    <input type="submit">
+                <form class="form" action="#" method="POST">
+                    <div class="form__cover">
+                        <input class="form__item form__item_size_small" type="text" placeholder="First Name" required>
+                        <input class="form__item form__item_size_small" type="text" placeholder="Last Name" required>
+                    </div>
+                    <input class="form__item" type="tel" placeholder="Phone Number" required>
+                    <select class="form__item form__select" name="Select Service" required>
+                        <option value="">Select Service</option>
+                    </select>
+                    <input class="button form__button" type="submit" value="Submit now">
                 </form>
             </div>
         </section>

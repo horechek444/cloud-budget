@@ -1,0 +1,10 @@
+@import url(./__text-cover/contacts__text-cover.css);
+@import url(./__title/contacts__title.css);
+@import url(./__text/contacts__text.css);
+@import url(./__form-cover/contacts__form-cover.css);
+
+.contacts {
+    display: flex;
+    background-color: white;
+    padding: 117px 0 0 176px;
+}

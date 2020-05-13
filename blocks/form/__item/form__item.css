@@ -1,0 +1,16 @@
+.form__item {
+    min-height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0 0 0 31px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+.form__item:focus {
+    border-color: #ED4C5C;
+}
