@@ -2,4 +2,9 @@
     color: white;
     text-decoration: none;
     min-height: 17px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.header__item:hover .header__link {
+    opacity: 0.6;
 }

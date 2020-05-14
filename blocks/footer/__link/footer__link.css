@@ -1,4 +1,9 @@
 .footer__link {
     text-decoration: none;
     color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer__link:hover {
+    color: rgba(237, 76, 92, 0.7);
 }

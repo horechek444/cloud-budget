@@ -9,4 +9,9 @@
     font-weight: bold;
     text-decoration: none;
     color: #ED4C5C;
+    transition: color 0.3s ease;
+}
+
+.card__link:hover {
+    color: rgba(0, 0, 0, 0.7);
 }

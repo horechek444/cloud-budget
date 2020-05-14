@@ -7,4 +7,10 @@
     background-color: transparent;
     width: 100px;
     min-height: 40px;
+    transition: background-color 0.3s linear;
+}
+
+.header__button:hover {
+    background-color: white;
+    color: #ED4C5C;
 }

@@ -1,5 +1,10 @@
 .technology__icon {
     position: absolute;
+    transition: transform 0.4s linear;
+}
+
+.technology__icon:hover {
+    transform: scale(1.2);
 }
 
 .technology__item:nth-child(1) .technology__icon {

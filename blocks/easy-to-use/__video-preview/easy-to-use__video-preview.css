@@ -1,5 +1,5 @@
 .easy-to-use__video-preview {
-    position: relative;
+    position: absolute;
     top: -46px;
     left: 0;
     background-image: url(../../../images/video.png);

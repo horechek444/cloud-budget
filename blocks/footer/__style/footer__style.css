@@ -1,0 +1,7 @@
+.footer__style {
+    transition: fill 0.2s ease-in;
+}
+
+.footer__socail-item:hover .footer__style {
+    fill: rgba(237, 76, 92, 0.7);
+}

@@ -6,4 +6,9 @@
     width: 66px;
     height: 66px;
     z-index: 1;
+    transition: transform 0.4s ease;
+}
+
+.easy-to-use__video-icon:hover {
+    transform: scale(1.2);
 }

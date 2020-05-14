@@ -3,4 +3,9 @@
     line-height: 140%;
     text-decoration: none;
     color: #ED4C5C;
+    transition: color 0.3s ease;
+}
+
+.easy-to-use__link:hover {
+    color: rgba(0, 0, 0, 0.7);
 }

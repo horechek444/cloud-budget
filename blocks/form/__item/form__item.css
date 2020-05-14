@@ -10,8 +10,9 @@
     font-weight: normal;
     color: rgba(19, 39, 67, 0.5);
     background-color: transparent;
+    transition: border 0.2s ease;
 }
 
-.form__item:focus {
-    border-color: #ED4C5C;
+.form__item:hover {
+    border: 1px solid rgba(237, 76, 92, 0.7);
 }
