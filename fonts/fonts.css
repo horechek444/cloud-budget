@@ -1,11 +1,11 @@
 @font-face {
     src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: normal;
 }
 
 @font-face {
     src: url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: bold;
 }
