@@ -12,6 +12,7 @@
 @import url(./__socail-item/footer__socail-item.css);
 @import url(./__style/footer__style.css);
 @import url(./__payments/footer__payments.css);
+@import url(./__phone/footer__phone.css);
 
 .footer {
     display: flex;
